@@ -2,6 +2,7 @@
   "name": "@icedesign/open-platform-scaffold",
   "version": "0.1.0",
   "description": "该模板适用于开放平台的引导页，默认内置一个页面和六个不同风格的展示区块",
+  "homepage": "https://everything8.github.io/website",
   "dependencies": {
     "@alifd/next": "^1.x",
     "@icedesign/container": "^1.x",
@@ -36,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ice-lab/react-materials/tree/master/scaffolds/ice-open-platform-landingpage"
+    "url": "https://github.com/everything8/website"
   },
   "private": true,
   "originTemplate": "@icedesign/open-platform-scaffold"
