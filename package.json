@@ -1,0 +1,43 @@
+{
+  "name": "@icedesign/open-platform-scaffold",
+  "version": "0.1.0",
+  "description": "该模板适用于开放平台的引导页，默认内置一个页面和六个不同风格的展示区块",
+  "dependencies": {
+    "@alifd/next": "^1.x",
+    "@icedesign/container": "^1.x",
+    "@icedesign/layout": "^1.x",
+    "@icedesign/theme": "^1.x",
+    "moment": "^2.23.0",
+    "prop-types": "^15.5.8",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "@ice/spec": "^0.1.1",
+    "build-plugin-fusion": "^0.1.0",
+    "build-plugin-moment-locales": "^0.1.0",
+    "eslint": "^6.0.1",
+    "gh-pages": "^3.1.0",
+    "ice.js": "^1.0.0",
+    "stylelint": "^10.1.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d build",
+    "start": "icejs dev",
+    "build": "icejs build",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint --cache --ext .js,.jsx ./",
+    "stylelint": "stylelint ./**/*.scss"
+  },
+  "iceworks": {
+    "type": "react",
+    "adapter": "adapter-react-v3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ice-lab/react-materials/tree/master/scaffolds/ice-open-platform-landingpage"
+  },
+  "private": true,
+  "originTemplate": "@icedesign/open-platform-scaffold"
+}
